@@ -8,24 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		577E5BEC21BA8BA10083EB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E5BEB21BA8BA10083EB97 /* AppDelegate.swift */; };
-		577E5BEE21BA8BA10083EB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E5BED21BA8BA10083EB97 /* ViewController.swift */; };
 		577E5BF121BA8BA10083EB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BEF21BA8BA10083EB97 /* Main.storyboard */; };
 		577E5BF321BA8BA20083EB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BF221BA8BA20083EB97 /* Assets.xcassets */; };
 		577E5BF621BA8BA20083EB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BF421BA8BA20083EB97 /* LaunchScreen.storyboard */; };
 		577E5BFF21BA8C3B0083EB97 /* userinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BFE21BA8C3B0083EB97 /* userinfo.json */; };
 		577E5C0121BA8C5C0083EB97 /* applstockinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 577E5C0021BA8C5C0083EB97 /* applstockinfo.json */; };
+		CB99BF09231EFD8800096873 /* ContactsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99BF08231EFD8800096873 /* ContactsClass.swift */; };
+		CB99BF0C231EFE2100096873 /* ContactsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99BF0B231EFE2100096873 /* ContactsDetailViewController.swift */; };
+		CB99BF0F231EFE7500096873 /* Contacts API Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99BF0E231EFE7500096873 /* Contacts API Client.swift */; };
+		CB99BF14231EFEDF00096873 /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99BF13231EFEDF00096873 /* ContactsModel.swift */; };
+		CBEAD0672322C15100637A5C /* StocksAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAD0662322C15100637A5C /* StocksAPIClient.swift */; };
+		CBEAD0692322C23F00637A5C /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAD0682322C23F00637A5C /* Stocks.swift */; };
+		CBEAD06D2322E05300637A5C /* StocksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAD06C2322E05300637A5C /* StocksController.swift */; };
+		CBEAD0712322E1E100637A5C /* StocksDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAD0702322E1E100637A5C /* StocksDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		577E5BE821BA8BA10083EB97 /* PeopleAndAppleStockPrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleAndAppleStockPrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577E5BEB21BA8BA10083EB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		577E5BED21BA8BA10083EB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		577E5BF021BA8BA10083EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		577E5BF221BA8BA20083EB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577E5BF521BA8BA20083EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		577E5BF721BA8BA20083EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		577E5BFE21BA8C3B0083EB97 /* userinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userinfo.json; sourceTree = "<group>"; };
 		577E5C0021BA8C5C0083EB97 /* applstockinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = applstockinfo.json; sourceTree = "<group>"; };
+		CB99BF08231EFD8800096873 /* ContactsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsClass.swift; sourceTree = "<group>"; };
+		CB99BF0B231EFE2100096873 /* ContactsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailViewController.swift; sourceTree = "<group>"; };
+		CB99BF0E231EFE7500096873 /* Contacts API Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contacts API Client.swift"; sourceTree = "<group>"; };
+		CB99BF13231EFEDF00096873 /* ContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
+		CBEAD0662322C15100637A5C /* StocksAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksAPIClient.swift; sourceTree = "<group>"; };
+		CBEAD0682322C23F00637A5C /* Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks.swift; sourceTree = "<group>"; };
+		CBEAD06C2322E05300637A5C /* StocksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksController.swift; sourceTree = "<group>"; };
+		CBEAD0702322E1E100637A5C /* StocksDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,10 @@
 		577E5BEA21BA8BA10083EB97 /* PeopleAndAppleStockPrices */ = {
 			isa = PBXGroup;
 			children = (
-				577E5BED21BA8BA10083EB97 /* ViewController.swift */,
+				CB9C1A2C2321B56300A70A5F /* Models */,
+				CB9C1A2B2321B52B00A70A5F /* DVC */,
+				CB99BF0D231EFE4400096873 /* APIClients */,
+				CB99BF0A231EFDBC00096873 /* ViewControllers */,
 				577E5BEF21BA8BA10083EB97 /* Main.storyboard */,
 				577E5BFD21BA8BE20083EB97 /* Supporting Files */,
 				577E5BF721BA8BA20083EB97 /* Info.plist */,
@@ -84,6 +101,42 @@
 				577E5C0021BA8C5C0083EB97 /* applstockinfo.json */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		CB99BF0A231EFDBC00096873 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB99BF08231EFD8800096873 /* ContactsClass.swift */,
+				CBEAD06C2322E05300637A5C /* StocksController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CB99BF0D231EFE4400096873 /* APIClients */ = {
+			isa = PBXGroup;
+			children = (
+				CB99BF0E231EFE7500096873 /* Contacts API Client.swift */,
+				CBEAD0662322C15100637A5C /* StocksAPIClient.swift */,
+			);
+			path = APIClients;
+			sourceTree = "<group>";
+		};
+		CB9C1A2B2321B52B00A70A5F /* DVC */ = {
+			isa = PBXGroup;
+			children = (
+				CB99BF0B231EFE2100096873 /* ContactsDetailViewController.swift */,
+				CBEAD0702322E1E100637A5C /* StocksDetailViewController.swift */,
+			);
+			path = DVC;
+			sourceTree = "<group>";
+		};
+		CB9C1A2C2321B56300A70A5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB99BF13231EFEDF00096873 /* ContactsModel.swift */,
+				CBEAD0682322C23F00637A5C /* Stocks.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577E5BEE21BA8BA10083EB97 /* ViewController.swift in Sources */,
+				CBEAD0712322E1E100637A5C /* StocksDetailViewController.swift in Sources */,
+				CBEAD0672322C15100637A5C /* StocksAPIClient.swift in Sources */,
+				CB99BF14231EFEDF00096873 /* ContactsModel.swift in Sources */,
+				CBEAD0692322C23F00637A5C /* Stocks.swift in Sources */,
+				CB99BF0F231EFE7500096873 /* Contacts API Client.swift in Sources */,
+				CBEAD06D2322E05300637A5C /* StocksController.swift in Sources */,
 				577E5BEC21BA8BA10083EB97 /* AppDelegate.swift in Sources */,
+				CB99BF09231EFD8800096873 /* ContactsClass.swift in Sources */,
+				CB99BF0C231EFE2100096873 /* ContactsDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
